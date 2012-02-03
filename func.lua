@@ -5,7 +5,7 @@
 function add(clss,wwx,wwy,ang,spd) -- добавление всякого
 -- to do
 -- добавление вектора инициализации, что бы это нибыло
-	table.insert(thetable,{class=clss,wx=wwx,wy=wwy,ox=0,oy=0,angle=ang,speed=spd,speedup=0,pic=love.graphics.newImage(clss..'.png'),alive=1,hp=100})
+	table.insert(thetable,{class=clss,wx=wwx,wy=wwy,ox=0,oy=0,angle=ang,speed=spd,speedup=0,pic=images[clss],alive=1,hp=100})
 end
 
 -- обновление мира
